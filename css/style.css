@@ -4249,7 +4249,7 @@ input[type="button"].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
