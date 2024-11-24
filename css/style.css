@@ -118,6 +118,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     padding: 20px 15px 0 15px;
     text-align: center;
 }
+
+.hero .header-img {
+  margin-left: 0px!important;
+}
+
+.hero .header-img img {
+  width: 100%;
+}
+
 h2 {
   font-size: 20px!important;
 }
