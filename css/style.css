@@ -4223,6 +4223,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav {
+  font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   padding-left: 0;

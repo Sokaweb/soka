@@ -17,10 +17,10 @@
     <meta property="og:Author" content="Gio Moreno" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sokakids.com" />
-    <meta property="og:image" content="./img/logoweb.png" />
+    <meta property="og:image" content="../img/logoweb.png" />
 
     <!-- Favicon -->
-    <link href="./img/zokakids-favicon.png" rel="icon" />
+    <link href="../img/zokakids-favicon.png" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -34,14 +34,14 @@
       rel="stylesheet" />
 
     <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="../lib/flaticon/font/flaticon.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
 
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer
@@ -93,9 +93,9 @@
 
   <body>
     <div class="container-fluid position-relative shadow" style="">
-      <nav class="container navbar navbar-expand-lg py-3 py-lg-2 px-0 ">
+      <nav class="container navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-0 ">
         <a href="/" class="navbar-brand font-weight-bold text-secondary pt-0">
-          <img class src="./img/logoweb.png" width="100px"
+          <img class src="../img/logoweb.png" width="100px"
             alt="Soka Kids - Alejandra González"
             title="Soka Kids - Alejandra González">
         </a>
@@ -106,8 +106,7 @@
         <div class="collapse navbar-collapse justify-content-between"
           id="navbarCollapse">
           <div class="navbar-nav font-weight-bold mx-auto py-0">
-            <a href="index.html"
-              class="font-weight-light text-primary-morado nav-item nav-link  text-uppercase active">Inicio</a>
+            <a href="/" class="font-weight-light text-primary-morado nav-item nav-link  text-uppercase active">Inicio</a>
             <a href="nosotros.html"
               class="font-weight-light  text-primary-morado nav-item nav-link text-uppercase disabled">Nosotros</a>
             <div class="nav-item dropdown">
@@ -115,18 +114,16 @@
                 class="font-weight-light text-primary-morado nav-link dropdown-toggle text-uppercase "
                 data-toggle="dropdown">Programas</a>
               <div class="dropdown-menu rounded-0 m-0">
-                <a href="empoderarte"
-                  class="dropdown-item text-uppercase ">EmpoderArte</a>
-                <a href="diplomado"
+                <a href="/diplomado"
                   class="dropdown-item text-uppercase ">Coaching Educativo</a>
-                <a href="leadership/"
+                <a href="/leadership/"
                   class="dropdown-item text-uppercase ">Leadership</a>
               </div>
-            </div><a href="contacto.html"
+            </div><a href="/contacto.html"
             class="font-weight-light text-primary-morado nav-item nav-link text-uppercase disabled">Empresas</a>
-            <a href="contacto.html"
+            <a href="/contacto.html"
               class="font-weight-light text-primary-morado nav-item nav-link text-uppercase">Contacto</a>
-            <a href="contacto.html"
+            <a href="/contacto.html"
               class="text-warning nav-item nav-link text-uppercase disabled">Donar</a>
           </div>
           <a href="https://calendly.com/sokameets" target="_blank"
@@ -138,33 +135,30 @@
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <div class="bg-light hero" style="">
-      <div class="py-5" style="">
+    <div class="bg-light hero" style="background-image: url(../img/bg-soka-web.webp); background-repeat: no-repeat; background-size: cover; background-position: center;">
+      <div class="py-5" style="background: linear-gradient(to bottom, #ffffffe9, #ffffffe9);">
         <div class="container d-block  px-0 align-items-center mx-auto">
-            <div class="col-12 col-md-12 text-center">
-              <h1 class="text-primary-morado mt-3 hero-title font-weight-bold">
-                Más Inteligencia Emocional
+            <div class="col-12 col-md-8 mx-auto text-center" style="">
+              <img class="w-75" src="../img/logoEmpoderarte.png" alt="">
+              <img class="w-100 rounded-lg shadow my-3" src="../img/galeria/banner-empoderarte.jpg" alt="">
+              <h1 class="h4 text-primary-morado my-3 text-center">Campamento de Inteligencia Emocional diseñado para que tu hijo/a reconozca su poder interior, se conecte con el mundo y recupere su pasión por la vida
               </h1>
-              <h3 class="font-weight-light mt-3">Formación y Entrenamiento para niños, adolescentes, padres y docentes</h3>  
-              <div class="d-inline-block d-md-flex col-md-6 mx-auto justify-content-center mt-3">
-                <a href="https://calendly.com/sokameets" target="_blank"
-                class="col-12 col-md-6 btn btn-lg bg-primary text-light font-weight-bolder rounded-pill mt-1 py-3 px-5 mt-3">Contáctanos</a>
-                <a href="https://calendly.com/sokameets" target="_blank"
-                class="col-12 col-md-6 btn btn-lg btn-outline-secondary font-weight-bolder rounded-pill mt-1 py-3 px-5 mt-3">Ver programas</a>
-              </div>
-            </div>
-            <div class="col-12 text-center my-5 mx-0 px-0" style="">
-              <img class="text-center w-100" src="./img/banner-soka-main.webp" alt="">
+              <a href="https://calendly.com/sokameets" target="_blank" class="btn btn-lg btn-outline-secondary font-weight-bolder rounded-pill mt-1 py-2 px-5  text-uppercase text-center">
+                Qué es Empoderarte
+              </a>
             </div>
           </div>
       </div>
     </div>  
     <!-- Header End -->
+     <div class="submenu-program bg-light shadow py-3">
+
+     </div>
 
     
 
     <!-- Banner Start -->
-    <div class="container-fluid py-5" style="background-image: url(./img/bg-puntos.png); background-size: cover;;">
+    <div class="container-fluid py-5" style="background-image: url(../img/bg-puntos.png); background-size: cover;;">
       <h1 class="text-center text-primary-morado mb-5"></h1>
       <div class="container" style="box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); background-image: url(/img/galeria/int-emocional-fundacion-soka.webp); border-radius: 15px">
         <div class="row align-items-center px-5" style="background: linear-gradient(135deg, rgba(49, 11, 88, 0.774), #1e0538); border-radius: 15px">
@@ -179,7 +173,7 @@
           </div>
           <div class="col-12 col-lg-4 text-center d-none d-md-block">
             <img class="w-100 rounded" 
-              src="img/docente-diplomado.webp" alt />
+              src="../img/docente-diplomado.webp" alt />
           </div>
         </div>
       </div>
@@ -234,7 +228,7 @@
               <div class="w-100 ">
                 <div class="w-100">
                   <h3 class="mt-3" style="">EDUCACIÓN</h3>
-                  <h5 class="font-weight-light">Coaching e Inteligencia emocinoal para niños, adolescentes, padres y docentes</h5>
+                  <h5 class="font-weight-light">Coaching e Inteligencia emocional para niños, adolescentes, padres y docentes</h5>
                 </div>
               </div>
             </a>
@@ -264,49 +258,31 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="container d-flex border bg-primary align-items-center p-3" style="border-radius: 15px;">
-        <div class="col-3 text-center">
-          <img class="w-100" style="max-width: 150px;" src="/img/thanks.gif" alt="">
-        </div>
-        <div class="col-9">
-          <div>
-            <h2 class="text-white">Inteligencia Emocional para el Desarrollo humano</h2>
-          </div>
-          <div class="d-flex align-items-center">
-            <div class="col-9 p-0">
-              <p class="text-light">Nuevas y mejores maneras de impulsar el crecimiento del ser con herramientas de coaching y Pedagogía</p>
-            </div>
-            <div class="col-3">
-              <a class="gradient-secondary py-1 px-3 rounded text-white font-weight-bolder" href="/contact">Contactar ahora</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="" class="mt-5 py-2 bg-light shadow" >
-      <div class="container d-flex align-items-center my-5">
-        <div class="">
-          <h2 class="text-primary-morado">Nuestros Aliados</h2>
-        </div>
+    <section id="" class="mt-5" >
+      <div class="container">
+          <div class="">
+            <h1 class="text-primary-morado mb-4">Nuestros Aliados</h1>
+          </div>
+        
+        <div class="border-bottom mb-5"></div>
         <div class="row d-lg-flex align-items-center">
-          <div class="col-6 col-lg-3 text-center">
+          <div class="col-6 col-lg-3 mb-5 text-center">
             <a href="https://becoach.lat" target="_blank">
               <img class="hover-effect" src="/img/logoBecoach.png" alt="">
             </a>
           </div>
-          <div class="col-6 col-lg-3 text-center">
+          <div class="col-6 col-lg-3 mb-5 text-center">
             <a href="https://mundoecoa.com" target="_blank">
               <img class="hover-effect" style="height: 96px;" src="/img/logo-ecoa-colombia.png" alt="">
             </a>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-6 col-lg-3 mb-5">
             <a href="https://www.uniremington.edu.co/" target="_blank">
               <img class="hover-effect w-100" src="/img/logo-uniremington.webp" alt="">
             </a>
           </div>
-          <div class="col-6 col-lg-3">
+          <div class="col-6 col-lg-3 mb-5">
             <a href="https://expansion11.co">
               <img class="hover-effect w-100" src="/img/x11.png" alt="">
             </a>
@@ -329,10 +305,10 @@
     </section>
 
     <section class="shadow" style="background-image: url('/img/bg-soka-web.webp'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat;">
-      <div class="text-right mb-5" style="background: linear-gradient(to bottom, #ffffffe7, #ffffff) ;">
+      <div class="text-right my-5" style="background: linear-gradient(to bottom, #ffffffe7, #ffffff) ;">
         <div class="container text-center d-block d-md-flex align-items-center  py-3 py-md-0 " >
           <div class="col-md-5 mt-5">
-            <img class="img-fluid rounded mb-lg-0" src="img/alejandra-gonzalez-coach-ontológico-fundacion-soka.webp" alt />
+            <img class="img-fluid rounded mb-lg-0" src="/img/alejandra-gonzalez-coach-ontológico-fundacion-soka.webp" alt />
           </div>
           <div class="col-md-5 align-items-center">
             <h1 class="my-3 text-primary-morado">Alejandra González</h1>
@@ -341,7 +317,7 @@
                 Promovemos una metodología alternativa, basada en procesos de
                 investigación y desarrollo sensorial.<br>
               </h4>
-              <a class="h3 text-warning" href="./nosotros.html" class="">Más info <i class="fas fa-arrow-alt-circle-right"></i></a>
+              <a class="h3 text-warning" href="../nosotros.html" class="">Más info <i class="fas fa-arrow-alt-circle-right"></i></a>
           </div>
         </div>
       </div>
@@ -365,14 +341,14 @@
     <div class="row">
       <div class="col-lg-4 mb-5 ">
         <div class="border-0 pb-2">
-          <a href="./empoderarte"><img
+          <a href="../empoderarte"><img
               class="card-img-top mb-2 mouse-on"
-              src="img/portadaEmpoderarte.webp"
+              src="/img/portadaEmpoderarte.webp"
               alt="Campamento Empoderarte Fundación Soka" 
               style="border-radius: 20px; box-shadow: 0 0 15px #00000020;"/></a>
           <div class="mt-2">
             <p class="m-0 mb-1 font-weight-light">PROGRAMA DE EDUCACIÓN</p>
-            <a href="./empoderarte"><h4
+            <a href="../empoderarte"><h4
                 class="">EmpoderArte</h4></a>
             <h5 class="card-text font-weight-light">
               Progama Inmersivo de 2 días para aprender a Gestionar las Emociones como clave para el desarrollo
@@ -385,7 +361,7 @@
       <div class="col-lg-4 mb-5">
         <div class="border-0 pb-2 ">
           <a href="diplomado/"><img class="card-img-top mb-2"
-              src="img/portadaDiplomado.webp" alt="Diplomado en Coaching Educativo e Inteligencia Emocional en el aula" 
+              src="/img/portadaDiplomado.webp" alt="Diplomado en Coaching Educativo e Inteligencia Emocional en el aula" 
               style="border-radius: 20px; box-shadow: 0 0 15px #00000020;"/></a>
             <div class="mt-2">
               <p class="m-0 mb-1 font-weight-light">PROGRAMA DE EDUCACIÓN</p>
@@ -402,7 +378,7 @@
       <div class="col-lg-4 mb-5">
         <div class="border-0 pb-2 ">
           <a href="leadership/"><img class="card-img-top mb-2"
-              src="img/portadaLeadership.webp" alt="Código Familiar" 
+              src="/img/portadaLeadership.webp" alt="Código Familiar" 
               style="border-radius: 20px; box-shadow: 0 0 15px #00000020;"/></a>
             <div class="mt-2">
               <p class="m-0 mb-1 font-weight-light">PROGRAMA DE EDUCACIÓN</p>
@@ -420,33 +396,6 @@
   </div>
 </div>
 <!-- Class End -->
-    <!-- About Start -->
-    <div class="container-fluid py-5"
-      style="background-image: url(./img/bg-puntos.png); background-size: cover;">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-5">
-            <img
-              class="img-fluid rounded mb-5 mb-lg-0"
-              src="img/galeria/cuadros-fundacion-soka.webp"
-              alt />
-          </div>
-          <div class="col-7">
-            <h1 class="my-3 text-primary-morado">Somos Soka</h1>
-            <h4 class="font-weight-light my-3" style="line-height: 2rem;">
-              Somos consultores en educación integral para niños y niñas.
-              Promovemos una metodología alternativa, basada en procesos de
-              investigación y desarrollo sensorial.<br>
-              En <b>Soka</b> somos felicidad y amor por hacer las cosas, por las
-              personas que nos rodean y por el
-              entorno en que se vive.<br>
-            </h4>
-            <a class="h3 text-warning" href="./nosotros.html" class="">Más info <i class="fas fa-arrow-alt-circle-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About End -->
 
     <!-- Team Start -->
     <div class="" >
@@ -467,7 +416,7 @@
           <div class="mb-5 col-6 col-md-4 col-lg-3 pl-0">
             <div class="mb-4">
               <div style="position: relative; width: 100%; padding-top: 133.33%; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                <img src="img/alejandra-gonzalez-coach-soka.jpg" 
+                <img src="/img/alejandra-gonzalez-coach-soka.jpg" 
                      alt="Alejandra González Docente de Inteligencia Emocional" 
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" />
               </div>              
@@ -482,7 +431,7 @@
           <div class="mb-5 col-6 col-md-4 col-lg-3 pl-0">
             <div class="mb-4">
               <div style="position: relative; width: 100%; padding-top: 133.33%; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                <img src="img/gio-moreno-coach-soka.jpg" 
+                <img src="/img/gio-moreno-coach-soka.jpg" 
                      alt="Alejandra González Docente de Inteligencia Emocional" 
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" />
               </div>
@@ -497,7 +446,7 @@
           <div class="mb-5 col-6 col-md-4 col-lg-3 pl-0">
             <div class="mb-4">
               <div style="position: relative; width: 100%; padding-top: 133.33%; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                <img src="img/gio-moreno-coach-soka.jpg" 
+                <img src="/img/gio-moreno-coach-soka.jpg" 
                      alt="Alejandra González Docente de Inteligencia Emocional" 
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" />
               </div>
@@ -704,7 +653,7 @@
         <div class="row pt-5 justify-content-between">
           <div class="col-lg-4 col-md-6 mb-5">
             <a href="/" class="navbar-brand font-weight-bold text-secondary pt-0">
-              <img class src="./img/logoweb.png" 
+              <img class src="../img/logoweb.png" 
                 alt="Soka Kids - Alejandra González"
                 title="Soka Kids - Alejandra González">
             </a>
@@ -786,16 +735,16 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="../mail/jqBootstrapValidation.min.js"></script>
+    <script src="../mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
