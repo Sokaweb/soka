@@ -127,6 +127,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   width: 100%;
 }
 
+.hero-title{
+  font-size: 2.5rem!important;
+}
+
 h2 {
   font-size: 20px!important;
 }
@@ -464,6 +468,12 @@ h1, .h1 {
   font-size: 2.5rem;
 }
 
+@media (min-width: 765px) {
+  .h1-hero {
+    font-size: 4rem ;
+  }
+}
+
 @media (max-width: 1200px) {
   h1, .h1 {
     font-size: calc(1.375rem + 1.5vw) ;
@@ -621,6 +631,14 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 765px) {
+  .img-fluid {
+    object-fit: cover;
+    overflow: hidden;
+    height: 230px;
+  }
 }
 
 .img-thumbnail {
