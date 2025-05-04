@@ -93,6 +93,17 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.bungee {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gradient-yellow {
+  background: linear-gradient(0deg, #C95820, #E8B62F); /* colores del gradiente */
+}
+
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
