@@ -131,7 +131,7 @@
               <img class="text-center mt-3 w-100" src="../img/texto-2-vacaciones-recreativas.webp"  alt="vacaciones recreativas en inteligencia emocional">
             </div>
             <div class="w-100 border d-inline-block p-2 rounded shadow mt-3">
-              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/864056086?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="claseLeadership"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe id="vimeo-video" src="https://player.vimeo.com/video/1083077262?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Inteligencia Emocional"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             <div class="my-3 bg-white shadow p-2 py-3 rounded" >
               <h3 class="bungee text-primary-morado m-0">JUNIO 23 AL 27 DE 2025</h3>
@@ -348,6 +348,23 @@
       <a href="#" class="btn btn-primary p-3 back-to-top"
         ><i class="fa fa-angle-double-up"></i
       ></a>
+
+
+      <!-- CAMBIA LA VELOCIDAD REPRODUCCIÓN -->
+      <script>
+        const iframe = document.getElementById('vimeo-video');
+        const player = new Vimeo.Player(iframe);
+        
+        player.ready().then(() => {
+        player.setPlaybackRate(1.10).catch(error => {
+          if (error.name === 'RateNotSupportedError') {
+          console.warn('La velocidad 1.25x no está permitida para este video.');
+          } else {
+          console.error(error);
+          }
+        });
+        });
+      </script>
 
       
 
