@@ -1,0 +1,15 @@
+{
+  "med": {
+    "ciudad": "Medellín",
+    "fechas": "16 al 20 de junio",
+    "lugar": "Colegio la Colina, El Poblado"
+  },
+  "bga": {
+    "ciudad": "Bucaramanga",
+    "fechas": "23 al 27 de junio",
+    "lugar": "Seminario Mayor, Floridablanca"
+  },
+  "default": {
+    "mensaje": "Quiero información sobre las vacaciones recreativas"
+  }
+}
