@@ -1,22 +1,30 @@
 {
   "med": {
     "ciudad": "Medellín",
-    "fechas": "26 y 27 de julio",
+    "diaInicio": 26,
+    "diaFin": 27,
+    "mes": "julio",
     "lugar": "Colegio la Colina, El Poblado"
   },
   "bga": {
-    "ciudad": "Bucaramanga",
-    "fechas": "16 y 17 de agosto",
-    "lugar": "Seminario Mayor"
+    "ciudad": "B/manga",
+    "diaInicio": 16,
+    "diaFin": 17,
+    "mes": "agosto",
+    "lugar": "Seminario Mayor de F/blanca"
   },
   "tunja": {
     "ciudad": "Tunja",
-    "fechas": "19 y 20 de septiembre",
+    "diaInicio": 20,
+    "diaFin": 21,
+    "mes": "septiembre",
     "lugar": "Club del Comercio"
   },
   "bogotá": {
     "ciudad": "Bogotá",
-    "fechas": "18 y 19 de octubre",
+    "diaInicio": 25,
+    "diaFin": 26,
+    "mes": "octubre",
     "lugar": "Lugar Por definir"
   }
 }
