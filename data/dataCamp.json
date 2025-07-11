@@ -4,7 +4,7 @@
     "diaInicio": 26,
     "diaFin": 27,
     "mes": "julio",
-    "lugar": "Colegio la Colina, El Poblado"
+    "lugar": "Casa de Retiros y Convivencias Santa Cruz"
   },
   "bga": {
     "ciudad": "B/manga",
@@ -22,9 +22,9 @@
   },
   "bogotá": {
     "ciudad": "Bogotá",
-    "diaInicio": 25,
-    "diaFin": 26,
-    "mes": "octubre",
+    "diaInicio": 1,
+    "diaFin": 2,
+    "mes": "noviembre",
     "lugar": "Lugar Por definir"
   }
 }
